@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.img2{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 73px;
+    background-color: white;
+}
+.img1{
+   background-color: white;
+   border-radius: 50px;
+   margin-left: 73px;
+   margin-top: 27px;
+}
+.sidewrd{
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+    margin-left: 27px;
+}
+.sec1{
+    background-color: rgb(252, 217, 174);
+    height: 375px;
+    width: 100%;
+}
+.toggle{
+    background-color: rgb(255, 85, 0);
+    height: 23px;
+    width: 43px;
+    margin-left: 24px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.toggle .toggle2{
+   background-color: white;
+   position: absolute;
+   left: 375px;
+   bottom: 27px;
+    cursor: pointer;
+    height: 18px;
+    width: 19px;
+    border-radius: 81px;
+    transition: .5s;
+}
+.toggle.active{
+   background-color: rgb(94, 14, 14);
+}
+.toggle.active .toggle2{
+    left:356px
+}
+.divider{
+    height: 28px;
+    width: 1px;
+    opacity: .1;
+    background-color: #000;
+    margin: 0 1.2rem 
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(239, 239, 239);
+    height: 38px;
+    width: 319px;
+    background-color: rgb(246, 246, 246);
+    margin-left: 0px;
+    border-radius: 53px;
+}
+.img2{
+    padding: 0px;
+}
+.sideone{
+font-family:  'Poppins', sans-serif;
+color: black;
+font-size: 14px;
+padding: 12px;
+margin-top: 5px;
+}
+.sidetog{
+    font-family:  'Poppins', sans-serif;
+    color: rgb(245, 39, 3);
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 18px;
+}
+.icon1{
+    width: 18px;
+    height: 18px
+}
+.nav_side{
+    list-style: none;
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_side_words{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+li{
+    margin-left: 18px;
+}
+.imgg{
+    margin-top: 0px;
+}
+.section1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -202px;
+    margin-top: 39px;
+    font-family: 'Poppins', sans-serif;
+}
+.one{
+
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: -120px;
+}
+.two{
+color: rgb(255, 106, 0);
+font-size: 17px;
+margin-right: -307px;
+}
+.arrow{
+    background-color: rgb(252, 205, 143);
+    height: 30px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homecontent{
+    background-color: rgb(252, 205, 143);
+   height: 320px;
+   margin-top: -40px;
+}
+.tap1{
+    padding: 149px 1239px 0px 1402px;
+}
+.tap2{
+    padding: 149px 0px 0px 20px;
+}
+.lol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 63px 3px 0px 0px;
+gap: 48px;
+}
+.lol1{
+    background-color: white;
+    border-radius: 10px;
+}
+.lol2{
+background-color: white;
+border-radius: 10px;
+}
+.lol3{
+    background-color: white;
+    border-radius: 10px;
+    }
+.lol4{
+        background-color: white;
+        border-radius: 10px;
+        }
+        .lol5{
+            background-color: white;
+            border-radius: 10px;
+            }
+            .lol6{
+                background-color: white;
+                border-radius: 10px;
+                }
+                .lol7{
+                    background-color: white;
+                    border-radius: 10px;
+                    }
+                    .lol8{
+                        background-color: white;
+                        border-radius: 10px;
+                        }
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    padding: 14px 3px 0px 0px;
+     gap: 48px;
+}
+.cop{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    width: 326px;
+    height: 45px;
+border-radius: 21px;
+transform: translate(550px,35px);
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+}
+.till{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 82px 0px 122px;
+}
+.imgher{
+width: 100%;
+height: 50vh;
+}
+.foote{
+    font-size: 12px;
+    padding-top: 60px;
+    font-family: 'Poppins', sans-serif;
+}
